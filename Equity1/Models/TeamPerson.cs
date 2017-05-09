@@ -33,7 +33,7 @@ namespace Equity1.Models
                     new TeamPerson("Darryl Challenger", "Project Manager","Bio", "/Images/DCsq.png"),
                     new TeamPerson("Rebecca Martos", "Creative Producer","Bio", "/Images/RMsq.jpg"),
                     new TeamPerson("Maxwell Tielman", "Social Media Lead","Bio", "/Images/MTsq.jpg"),
-                    new TeamPerson("Emily Rasowsky", "Emily Rasowsky","Bio", "/Images/ERsq.png"),
+                    new TeamPerson("Emily Rasowsky", "Technology Lead","Bio", "/Images/ERsq.png"),
                     new TeamPerson("Amelia Erikson", "Non Profit & NGO Liaison Lead","Bio", "/Images/AEsq.jpg"),
                     new TeamPerson("Mark Brennan", "Visual Art Exhibit Lead","Bio", "/Images/MBsq.jpg"),
                     new TeamPerson("Fr. Frank Sabatte", "Head Artist-in-Residence","Bio", "/Images/FSsq.jpg"),

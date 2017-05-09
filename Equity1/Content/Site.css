@@ -194,6 +194,7 @@ div.RoomImage h3 span {
 .tName, .bName {
     color: rgb(38, 169,225);
     height: 2em;
+    /*background-color:black;*/
  }
 
 .tTitle, .bTitle {
@@ -213,8 +214,8 @@ div.RoomImage h3 span {
  }
 
  .tImg, .bImg {
-    width: 200px;
-    height: 200px;
+    width: 250px;
+    height: 250px;
     
     background-size:cover;
     background-position: 50% 50%;

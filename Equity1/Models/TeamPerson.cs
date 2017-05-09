@@ -26,18 +26,18 @@ namespace Equity1.Models
         {
             var OC = new[]
             {
-                    new TeamPerson("Raquelle Zuzarte", "Founder","Bio", "/Images/RZ.png"),
-                    new TeamPerson("Ashley Graham", "Sponsorships Lead","Bio", "/Images/AG.jpg"),
-                    new TeamPerson("Elena DeLuccia", "Design & Talent Lead","Bio", "/Images/ED.png"),
-                    new TeamPerson("Tesfa Alexander", "Marketing Lead","Bio", "/Images/TA.jpg"),
-                    new TeamPerson("Darryl Challenger", "Project Manager","Bio", "/Images/DC.png"),
-                    new TeamPerson("Rebecca Martos", "Creative Producer","Bio", "/Images/RM.jpg"),
-                    new TeamPerson("Maxwell Tielman", "Social Media Lead","Bio", "/Images/MT.jpg"),
-                    new TeamPerson("Emily Rasowsky", "Emily Rasowsky","Bio", "/Images/ER.png"),
-                    new TeamPerson("Amelia Erikson", "Non Profit & NGO Liaison Lead","Bio", "/Images/AE.jpg"),
-                    new TeamPerson("Mark Brennan", "Visual Art Exhibit Lead","Bio", "/Images/MB.jpg"),
-                    new TeamPerson("Fr. Frank Sabatte", "Head Artist-in-Residence","Bio", "/Images/FS.jpg"),
-                    new TeamPerson("Nadia Tayeh", "Artist-in-Residence", "Bio","/Images/NT.jpg")
+                    new TeamPerson("Raquelle Zuzarte", "Founder","Bio", "/Images/RZsq.png"),
+                    new TeamPerson("Ashley Graham", "Sponsorships Lead","Bio", "/Images/AGsq.jpg"),
+                    new TeamPerson("Elena DeLuccia", "Design & Talent Lead","Bio", "/Images/EDsq.png"),
+                    new TeamPerson("Tesfa Alexander", "Marketing Lead","Bio", "/Images/TAsq.jpg"),
+                    new TeamPerson("Darryl Challenger", "Project Manager","Bio", "/Images/DCsq.png"),
+                    new TeamPerson("Rebecca Martos", "Creative Producer","Bio", "/Images/RMsq.jpg"),
+                    new TeamPerson("Maxwell Tielman", "Social Media Lead","Bio", "/Images/MTsq.jpg"),
+                    new TeamPerson("Emily Rasowsky", "Emily Rasowsky","Bio", "/Images/ERsq.png"),
+                    new TeamPerson("Amelia Erikson", "Non Profit & NGO Liaison Lead","Bio", "/Images/AEsq.jpg"),
+                    new TeamPerson("Mark Brennan", "Visual Art Exhibit Lead","Bio", "/Images/MBsq.jpg"),
+                    new TeamPerson("Fr. Frank Sabatte", "Head Artist-in-Residence","Bio", "/Images/FSsq.jpg"),
+                    new TeamPerson("Nadia Tayeh", "Artist-in-Residence", "Bio","/Images/NTsq.jpg")
 //                    new TeamPerson("", "","Bio", ""),
             };
             return OC;
@@ -46,18 +46,18 @@ namespace Equity1.Models
         {
             var AB = new[]
             {
-                    new TeamPerson("Simon Moss", "Co-Founder – Global Citizen", "Bio","/Images/SM.jpg"),
-                    new TeamPerson("Per Pedersen", "Chairman – Global Creative Council, GREY", "Bio","/Images/PP.png"),
-                    new TeamPerson("Jamira Burley", "Former Hillary For America Millennial Director", "Bio","/Images/JB.jpg"),
-                    new TeamPerson("Jakob Trollback", "Founder & CCO - Trollbäck+Company", "Bio","/Images/JT.jpg"),
-                    new TeamPerson("Shannon O'Shea", "Agenda 2030 Partnerships, UNICEF", "Bio","/Images/SO.jpg"),
-                    new TeamPerson("Rachel West", "Global Head of Creative Relations, GREY", "Bio","/Images/RW.png"),
-                    new TeamPerson("Tamara Park", "Founder, Chief Creative Officer Park Digital Ventures", "Bio","/Images/TP.jpg"),
-                    new TeamPerson("Prof.Meena Alexandra", "Award-winning poet", "Bio","/Images/MA.jpg"),
-                    new TeamPerson("Miriam Rotman, M.D.", "Women’s Health Advocate Bay Area Forward", "Bio","/Images/MR.jpg"),
-                    new TeamPerson("Donetta Campbell","CEO – The Social Architects",  "Bio","/Images/DC2.jpg"),
-                    new TeamPerson("Mark Danchak","Co-Founder - Carbon6 Ventures", "Bio", "/Images/MD.jpg"),
-                    new TeamPerson("Katrina Del Punta, PhD", "Professor – Rockefeller University", "Bio","/Images/KP.jpg")
+                    new TeamPerson("Simon Moss", "Co-Founder – Global Citizen", "Bio","/Images/SMsq.jpg"),
+                    new TeamPerson("Per Pedersen", "Chairman – Global Creative Council, GREY", "Bio","/Images/PPsq.png"),
+                    new TeamPerson("Jamira Burley", "Former Hillary For America Millennial Director", "Bio","/Images/JBsq.jpg"),
+                    new TeamPerson("Jakob Trollback", "Founder & CCO - Trollbäck+Company", "Bio","/Images/JTsq.jpg"),
+                    new TeamPerson("Shannon O'Shea", "Agenda 2030 Partnerships, UNICEF", "Bio","/Images/SOsq.jpg"),
+                    new TeamPerson("Rachel West", "Global Head of Creative Relations, GREY", "Bio","/Images/RWsq.png"),
+                    new TeamPerson("Tamara Park", "Founder, Chief Creative Officer Park Digital Ventures", "Bio","/Images/TPsq.jpg"),
+                    new TeamPerson("Prof.Meena Alexandra", "Award-winning poet", "Bio","/Images/MAsq.jpg"),
+                    new TeamPerson("Miriam Rotman, M.D.", "Women’s Health Advocate Bay Area Forward", "Bio","/Images/MRsq.jpg"),
+                    new TeamPerson("Donetta Campbell","CEO – The Social Architects",  "Bio","/Images/DC2sq.jpg"),
+                    new TeamPerson("Mark Danchak","Co-Founder - Carbon6 Ventures", "Bio", "/Images/MDsq.jpg"),
+                    new TeamPerson("Katrina Del Punta, PhD", "Professor – Rockefeller University", "Bio","/Images/KPsq.jpg")
             };
             return AB;
 

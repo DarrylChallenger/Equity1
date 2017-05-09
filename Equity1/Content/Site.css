@@ -51,12 +51,9 @@ textarea {
     height:60px;
 
 }
-h1.navbar-brand{
-   
-   
-}
 
-ul.nav {
+
+.nav {
     border-color: black;
 }
 
@@ -94,7 +91,7 @@ ul.nav {
 }
 
 /* Map Image class is WideImage */
-div.container {
+.container {
     
     margin-left: 0;
     margin-right: 0;
@@ -188,29 +185,26 @@ div.RoomImage h3 span {
     padding-right: 15px;
 }
 
- h2.banner {
+ .banner {
     color: rgb(38, 169,225);
     text-align:center;
     font-size:3em;
 }
 
 .tName, .bName {
-     color:blueviolet;
-
+    color: rgb(38, 169,225);
  }
 
 .tTitle, .bTitle {
-     color: indianred;
-
+    color: rgb(38, 169,225);
  }
 
 .tBio {
-     color:black;
- }
+    color: rgb(38, 169,225); }
 
 .bBio {
-     color:black;
-     display:none;
+    color: rgb(38, 169,225);
+    display:none;
  }
 
  .tImg, .bImg {
@@ -239,4 +233,8 @@ div.RoomImage h3 span {
 #Team {
     padding-right:15px;
     padding-left:15px;
+}
+
+.foot {
+    margin: 0 10px;
 }

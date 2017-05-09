@@ -193,14 +193,19 @@ div.RoomImage h3 span {
 
 .tName, .bName {
     color: rgb(38, 169,225);
+    height: 2em;
  }
 
 .tTitle, .bTitle {
     color: rgb(38, 169,225);
+    height:2em;
  }
 
 .tBio {
-    color: rgb(38, 169,225); }
+    color: rgb(38, 169,225); 
+    display:none;
+}
+
 
 .bBio {
     color: rgb(38, 169,225);

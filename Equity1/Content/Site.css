@@ -1,13 +1,25 @@
 ﻿body {
-    padding-top: 50px;
+    padding-top: 70px;
     padding-bottom: 20px;
+    color: rgb(38,169,225);
+
 }
 
-/* Set padding to keep content from hitting the edges */
+/* Set padding to keep content from hitting the edges 
 .body-content {
     padding-left: 15px;
     padding-right: 15px;
+}*/
+/* use bullets content lists */
+ul {
+    list-style:disc;
 }
+
+div.sectionTilte, .sectionTilte {
+    text-align:center;
+    font-size:1.8em;
+}
+
 
 /* Override the default bootstrap behavior where horizontal description lists 
    will truncate terms that are too long to fit in the left column 
@@ -21,4 +33,210 @@ input,
 select,
 textarea {
     max-width: 280px;
+}
+
+/* Add the logo, Change the header background to EQUITY blue (38, 169, 225) with white text*/
+.navbar {
+    transition: all .5s ease-out;
+}
+
+.navbar-default .navbar-brand {
+    background: url("../Images/equity_V3-03blue.png" );
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-clip:border-box;
+    padding:0;
+    margin-top: 0;
+    width:250px;
+    height:60px;
+
+}
+h1.navbar-brand{
+   
+   
+}
+
+ul.nav {
+    border-color: black;
+}
+
+.navbar-default  {
+    color: white;
+    border: none;
+    background-color:white;
+}
+
+.navbar-default .navbar-brand, .navbar-default .navbar-nav > li > a {
+    background-color: white;
+    color: rgb(38, 169, 225);    
+    text-shadow: none;
+    font-size:1.2em;
+}
+
+ .navbar-default .navbar-nav > li > a:hover,  .navbar-default .navbar-nav > li > a:focus {
+    background-color: rgb(38, 169, 225);
+    color: white;
+}
+
+.navbar-default .navbar-nav > li> a .active  { /* not working yet*/
+    /*  color: rgb(38, 169, 225);     */
+    color: greenyellow;
+    font-weight: 100;
+    border-bottom: solid rgb(38, 169, 225);
+}
+
+/*.navbar-default .navbar-brand:hover {
+    color: white;
+}*/
+
+.navbar-default .navbar-collapse, .navbar-default .navbar-form{
+    border-color:black;
+}
+
+/* Map Image class is WideImage */
+div.container {
+    
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.WideImage {
+    padding: 0px 0px 0px 0px;
+    padding-left:0;
+    width:100%;
+}
+
+.MapImage {
+    position:relative;
+    padding: 0px 0px 0px 0px;
+    padding-left:0;
+    padding-right:0;
+    margin-left:0;
+    margin-right:0;
+    width:100%;
+}
+
+div.MapImage h4 {
+    position:absolute;
+    color:rgb(38,169,225);
+    font-size:.9em;
+    font-style:italic;
+    bottom:1em;
+    right:2em;
+}
+
+.MosaicImage {
+    position:relative;
+    padding: 0px 0px 0px 0px;
+    padding-left:0;
+    padding-right:0;
+    margin-left:0;
+    margin-right:0;
+    width:100%;
+}
+
+div.MosaicImage h3 {
+    position:absolute;
+    color:white;
+    font-size:1.5em;
+    font-style:italic;
+    top:1em;
+    text-align:center;
+    width:100%;
+}
+
+div.MosaicImage h4 {
+    position:absolute;
+    color:white;
+    font-size:.9em;
+    font-style:italic;
+    font-weight:700;
+    bottom:1em;
+    text-align:center;
+    width:100%;
+}
+
+.RoomImage {
+    position:relative;
+    padding: 0px 0px 0px 0px;
+    padding-left:0;
+    margin-left:0;
+    margin-right:0;
+    width:100%;
+}
+
+div.RoomImage h4 {
+    position:absolute;
+    color:white;
+    font-size:1.5em;
+    font-style:italic;
+    top:.7em;
+    text-align:center;
+    font-weight:700;
+    width:100%;
+}
+
+div.RoomImage h3 span {
+    width:80%;
+    color:white;
+    top: 1em;
+}
+
+
+.repad {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+ h2.banner {
+    color: rgb(38, 169,225);
+    text-align:center;
+    font-size:3em;
+}
+
+.tName, .bName {
+     color:blueviolet;
+
+ }
+
+.tTitle, .bTitle {
+     color: indianred;
+
+ }
+
+.tBio {
+     color:black;
+ }
+
+.bBio {
+     color:black;
+     display:none;
+ }
+
+ .tImg, .bImg {
+    width: 200px;
+    height: 200px;
+    
+    background-size:cover;
+    background-position: 50% 50%;
+    display:block;
+ }
+
+ h1,h2,h3,h4,h5,h6,p {
+    color: rgb(38, 169, 225);
+}
+
+  h3 {
+    color: rgb(38, 169,225);
+    font-size:2em;
+}
+
+.vcenter {
+    display: inline-block;
+    vertical-align: middle;
+    float: none;
+}
+#Team {
+    padding-right:15px;
+    padding-left:15px;
 }

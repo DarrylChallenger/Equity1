@@ -195,6 +195,7 @@ div.RoomImage h3 span {
 
 .tName, .bName {
     color: rgb(43, 169,225);
+    font-size:1.7em;
     height: 1em;
     /*background-color:black;*/
  }

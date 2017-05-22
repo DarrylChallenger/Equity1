@@ -199,6 +199,7 @@
     <Compile Include="Controllers\AccountController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ManageController.cs" />
+    <Compile Include="Controllers\MockupsController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -210,8 +211,13 @@
     <Compile Include="Startup.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Content\WhiteOnBlack.css" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\BlackOnWhite.css" />
+    <Content Include="Content\BOW.css" />
+    <Content Include="Content\Black.css" />
+    <Content Include="Content\Rainbow.css" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
@@ -223,7 +229,10 @@
     <Content Include="Images\DCsq.png" />
     <Content Include="Images\EDsq.png" />
     <Content Include="Images\equity_V3-02.jpg" />
-    <Content Include="Images\equity_V3-03.png" />
+    <Content Include="Images\equity_V3-03USA2.png" />
+    <Content Include="Images\equity_V3-03USA.png" />
+    <Content Include="Images\equity_V3-03Rainbow.png" />
+    <Content Include="Images\equity_V3-03white.png" />
     <Content Include="Images\equity_V3-03black.png" />
     <Content Include="Images\equity_V3-03blue.png" />
     <Content Include="Images\ERsq.png" />
@@ -231,7 +240,7 @@
     <Content Include="Images\GenderEqPlus.png" />
     <Content Include="Images\GlobalCitizenLogo.png" />
     <Content Include="Images\GlobalGoals.jpg" />
-    <Content Include="Images\GlobalGoalsWithWoman.jpg" />
+    <Content Include="Images\GlobalGoalsColorWheel.jpg" />
     <Content Include="Images\JBsq.jpg" />
     <Content Include="Images\JTsq.jpg" />
     <Content Include="Images\KPsq.jpg" />
@@ -311,6 +320,15 @@
     <Content Include="Views\Home\OurTeam.cshtml" />
     <Content Include="Views\Home\Gallery.cshtml" />
     <Content Include="Views\Home\Support.cshtml" />
+    <Content Include="Views\Shared\_MockupLayout.cshtml" />
+    <Content Include="Views\Mockups\Index.cshtml" />
+    <Content Include="Views\Mockups\_ViewStart.cshtml" />
+    <Content Include="Views\Mockups\BOW.cshtml" />
+    <Content Include="Views\Mockups\Black.cshtml" />
+    <Content Include="Views\Shared\_MockupPartial.cshtml" />
+    <Content Include="Views\Mockups\BlackOnWhite.cshtml" />
+    <Content Include="Views\Mockups\Rainbow.cshtml" />
+    <Content Include="Views\Mockups\WhiteOnBlack.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

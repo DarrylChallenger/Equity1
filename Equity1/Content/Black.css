@@ -1,0 +1,82 @@
+﻿/* is it 43,169,225 or 38,169,225? */
+body {
+    background-color:black;
+}
+
+.navbar-default .navbar-brand {
+    background-image: url("../Images/equity_V3-03blue.png" );
+}
+
+.nav {
+    border-color: black;
+}
+
+.navbar-default  {
+    background-color:black;
+}
+
+.navbar-default .navbar-brand, .navbar-default .navbar-nav > li > a {
+    background-color: black;
+    color: rgb(43, 169, 225);    
+}
+
+ .navbar-default .navbar-nav > li > a:hover,  .navbar-default .navbar-nav > li > a:focus {
+    color: black;
+}
+
+.navbar-default .navbar-nav > li> a .active  { /* not working yet*/
+    /*  color: rgb(43, 169, 225);     */
+    border-bottom: solid rgb(43, 169, 225);
+}
+
+/*.navbar-default .navbar-brand:hover {
+    color: white;
+}*/
+
+.navbar-default .navbar-collapse, .navbar-default .navbar-form{
+    border-color:black;
+}
+
+div.MapImage h4 {
+    color:rgb(43,169,225);
+}
+
+div.MosaicImage h3 {
+    color:white;
+}
+
+div.MosaicImage h4 {
+    color:white;
+}
+
+div.RoomImage h4 {
+    color:white;
+}
+ .banner {
+    color: rgb(43, 169,225);
+}
+
+.tName, .bName {
+    color: rgb(43, 169,225);
+ }
+
+.tTitle, .bTitle {
+    color: rgb(43, 169,225);
+ }
+
+.tBio {
+    color: rgb(43, 169,225); 
+}
+
+
+.bBio {
+    color: rgb(43, 169,225);
+ }
+
+ h1,h2,h3,h4,h5,h6,p {
+    color: rgb(43, 169, 225);
+}
+
+  h3 {
+    font-size:2em;
+}

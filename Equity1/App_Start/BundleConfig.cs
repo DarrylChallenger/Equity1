@@ -26,6 +26,32 @@ namespace Equity1
             bundles.Add(new StyleBundle("~/Content/css").Include(
                       "~/Content/bootstrap.css",
                       "~/Content/site.css"));
+
+            bundles.Add(new StyleBundle("~/black/css").Include(
+                      "~/Content/bootstrap.css",
+                      "~/Content/site.css",
+                      "~/Content/Black.css"));
+
+            bundles.Add(new StyleBundle("~/BOW/css").Include(
+                      "~/Content/bootstrap.css",
+                      "~/Content/site.css",
+                      "~/Content/BOW.css"));
+
+            bundles.Add(new StyleBundle("~/Rainbow/css").Include(
+                      "~/Content/bootstrap.css",
+                      "~/Content/site.css",
+                      "~/Content/Rainbow.css"));
+
+            bundles.Add(new StyleBundle("~/BlackOnWhite/css").Include(
+                      "~/Content/bootstrap.css",
+                      "~/Content/site.css",
+                      "~/Content/BlackOnWhite.css"));
+
+            bundles.Add(new StyleBundle("~/WhiteOnBlack/css").Include(
+                      "~/Content/bootstrap.css",
+                      "~/Content/site.css",
+                      "~/Content/WhiteOnBlack.css"));
+
         }
     }
 }

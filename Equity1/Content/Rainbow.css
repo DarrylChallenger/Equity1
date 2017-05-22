@@ -1,0 +1,11 @@
+﻿/* is it 43,169,225 or 38,169,225? */
+body {
+    color: rgb(43,169,225); 
+}
+
+.navbar-default .navbar-brand {
+    background-image: url("../Images/equity_V3-03Rainbow.png" );
+}
+
+
+

@@ -52,6 +52,12 @@ namespace Equity1.Controllers
             return View();
         }
 
+        public ActionResult Mockups()
+        {
+            ViewBag.Message = "Mockups";
+            return View();
+        }
+
         public ActionResult Test()
         {
             ViewBag.Message = "Test";

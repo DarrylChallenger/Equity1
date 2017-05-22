@@ -3,7 +3,6 @@ body {
     padding-top: 70px;
     padding-bottom: 20px;
     color: rgb(43,169,225); 
-
 }
 
 /* Set padding to keep content from hitting the edges 
@@ -42,7 +41,7 @@ textarea {
 }
 
 .navbar-default .navbar-brand {
-    background: url("../Images/equity_V3-03blue.png" );
+    background-image: url("../Images/equity_V3-03blue.png" );
     background-repeat: no-repeat;
     background-size: 100%;
     background-clip:border-box;
@@ -99,14 +98,14 @@ textarea {
 }
 
 .WideImage {
-    padding: 0px 0px 0px 0px;
+    padding: 0 0 0 0; /*pixels*/
     padding-left:0;
     width:100%;
 }
 
 .MapImage {
     position:relative;
-    padding: 0px 0px 0px 0px;
+    padding: 0 0 0 0; /*pixels*/
     padding-left:0;
     padding-right:0;
     margin-left:0;
@@ -125,7 +124,7 @@ div.MapImage h4 {
 
 .MosaicImage {
     position:relative;
-    padding: 0px 0px 0px 0px;
+    padding: 0 0 0 0; /*pixels*/
     padding-left:0;
     padding-right:0;
     margin-left:0;
@@ -156,7 +155,7 @@ div.MosaicImage h4 {
 
 .RoomImage {
     position:relative;
-    padding: 0px 0px 0px 0px;
+    padding: 0 0 0 0; /*pixels*/
     padding-left:0;
     margin-left:0;
     margin-right:0;
@@ -187,11 +186,27 @@ div.RoomImage h3 span {
 }
 
  .banner {
-    color: rgb(43, 169,225);
     text-align:center;
-    font-size:3em;
-    height:2em;
+    font-weight:700;
 }
+
+ .center {
+    text-align:center;
+}
+
+ .hvcenter {
+     height:20em;
+     display:flex;
+     align-items:center;
+     justify-content:center;
+ }
+
+ .hvcenteritems {
+     padding-top:10px;
+     padding-bottom: 20px;
+     width: inherit ;
+     text-align:center;
+ }
 
 .tName, .bName {
     color: rgb(43, 169,225);
@@ -239,11 +254,35 @@ div.RoomImage h3 span {
     vertical-align: middle;
     float: none;
 }
-#Team {
+#Team, #MockupTeam {
     padding-right:15px;
     padding-left:15px;
 }
 
 .foot {
-    margin: 0 10px;
+    border-top:20px;
+    margin:0 10px;
+}
+
+.BlackOnWhite, .BlueOnWhite, .BlueOnBlack, .WhiteOnBlack, .Rainbow, .USA2 {
+    width:300px;
+}
+
+.BlackOnWhite {
+    background-color:white;
+}
+.BlueOnWhite {
+    background-color:white;
+}
+.BlueOnBlack {
+    background-color:black;
+}
+.WhiteOnBlack {
+    background-color:black;
+}
+.Rainbow {
+    background-color:white;
+}
+.USA2 {
+    background-color:rgb(43, 169, 225); 
 }

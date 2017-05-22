@@ -7,64 +7,68 @@
 <div class="page" id="Team">
     
     <div class="container-fluid">
-        <h2 class="banner">The Team</h2>
-        <div class="row">
-            @{
+        <div>
+            <h2 class="banner">The Team</h2>
+            <div class="row">
+                @{
                 var OC = new TeamPerson().GetOrgComm();
                 foreach (var mbr in OC)
                 {
-                    <article class="col-sm-6 col-md-4 col-lg-3">
-                        <div class="tMember">
-                            <img class="tImg" src="@mbr.image" alt="Picture of @mbr.Name -  @mbr.Title" />
-                        </div>
-                        <div>
-                            <h3 class="tName">@mbr.Name</h3>
-                            <h4 class="tTitle">@mbr.Title</h4>
-                            <h5 class="tBio">@mbr.Bio</h5>
-                        </div>
-                    </article>
+                        <article class="col-sm-6 col-md-4 col-lg-3">
+                            <div class="tMember">
+                                <img class="tImg" src="@mbr.image" alt="Picture of @mbr.Name -  @mbr.Title" title=" @mbr.Name - @mbr.Title " />
+                            </div>
+                            <div>
+                                <h3 class="tName">@mbr.Name</h3>
+                                <h4 class="tTitle">@mbr.Title</h4>
+                                <h5 class="tBio">@mbr.Bio</h5>
+                            </div>
+                        </article>
                 }
-            }
-        </div> <!-- row for team-->
-        <h2 class="banner">Advisory Board</h2>
-        <!-- A little old-fashioned coding coding :)-->
-        <div class="row">
-            @{
+                }
+            </div> <!-- row for team-->
+        </div>
+        <div>
+            <h2 class="banner">Advisory Board</h2>
+            <!-- A little old-fashioned coding coding :)-->
+            <div class="row">
+                @{
                 var AB = new TeamPerson().GetAdvBrd();
                 foreach (var mbr in AB)
                 {
-                    <article class="col-sm-6 col-md-4 col-lg-3">
-                        <div class="bMember">
-                            <img class="bImg" src="@mbr.image" alt="Picture of @mbr.Name -  @mbr.Title" />
-                        </div>
-                        <div>
-                            <h3 class="bName">@mbr.Name</h3>
-                            <h4 class="bTitle">@mbr.Title</h4>
-                            <h5 class="bBio">@mbr.Bio</h5>
-                        </div>
-                    </article>
+                        <article class="col-sm-6 col-md-4 col-lg-3">
+                            <div class="bMember">
+                                <img class="bImg" src="@mbr.image" alt="Picture of @mbr.Name -  @mbr.Title" title=" @mbr.Name - @mbr.Title " />
+                            </div>
+                            <div>
+                                <h3 class="bName">@mbr.Name</h3>
+                                <h4 class="bTitle">@mbr.Title</h4>
+                                <h5 class="bBio">@mbr.Bio</h5>
+                            </div>
+                        </article>
                 }
-            }
+                }
 
-           <!--
+                <!--
 
 
-                <article class="bMember col-sm-4"><img src="~/Images/SM.jpg" /><h3>Simon Moss</h3><h4>Co-Founder – Global Citizen</h4><h5>Bio</h5></article>
-                <article class="bMember col-sm-4"><img src="~/Images/PP.png" /><h3>Per Pedersen</h3><h4>Chairman – Global Creative Council, GREY</h4><h5>Bio</h5></article>
-                <article class="bMember col-sm-4"><img src="~/Images/JB.jpg" /><h3>Jamira Burley</h3><h4>Former Hillary For America Millennial Director</h4><h5>Bio</h5></article>
-                <article class="bMember col-sm-4"><img src="~/Images/JT.jpg" /><h3>Jakob Trollback</h3><h4>Founder & CCO - Trollbäck+Company </h4><h5>Bio</h5></article>
-                <article class="bMember col-sm-4"><img src="~/Images/SO.jpg" /><h3>Shannon O'Shea</h3><h4>Agenda 2030 Partnerships, UNICEF </h4><h5>Bio</h5></article>
-                <article class="bMember col-sm-4"><img src="~/Images/RW.png" /><h3>Rachel West</h3><h4>Global Head of Creative Relations, GREY </h4><h5>Bio</h5></article>
-                <article class="bMember col-sm-4"><img src="~/Images/TP.jpg" /><h3>Tamara Park</h3><h4>Founder, Chief Creative Officer Park Digital Ventures </h4><h5>Bio</h5></article>
-                <article class="bMember col-sm-4"><img src="~/Images/MA.jpg" /><h3>Prof. Meena Alexandra</h3><h4>Award-winning poet </h4><h5>Bio</h5></article>
-                <article class="bMember col-sm-4"><img src="~/Images/MR.jpg" /><h3>Miriam Rotman, M.D.</h3><h4>Women’s Health Advocate Bay Area Forward</h4><h5>Bio</h5></article>
-                <article class="bMember col-sm-4"><img src="~/Images/DC2.jpg" /><h3>Donetta Campbell</h3><h4>CEO – The Social Architects</h4><h5>Bio</h5></article>
-                <article class="bMember col-sm-4"><img src="~/Images/MD.jpg" /><h3>Mark Danchak</h3><h4>Co-Founder - Carbon6 Ventures </h4><h5>Bio</h5></article>
-                <article class="bMember col-sm-4"><img src="~/Images/KP.jpg" /><h3>Katrina Del Punta, PhD</h3><h4>Professor – Rockefeller University</h4><h5>Bio</h5></article>
+                 <article class="bMember col-sm-4"><img src="~/Images/SM.jpg" /><h3>Simon Moss</h3><h4>Co-Founder – Global Citizen</h4><h5>Bio</h5></article>
+                 <article class="bMember col-sm-4"><img src="~/Images/PP.png" /><h3>Per Pedersen</h3><h4>Chairman – Global Creative Council, GREY</h4><h5>Bio</h5></article>
+                 <article class="bMember col-sm-4"><img src="~/Images/JB.jpg" /><h3>Jamira Burley</h3><h4>Former Hillary For America Millennial Director</h4><h5>Bio</h5></article>
+                 <article class="bMember col-sm-4"><img src="~/Images/JT.jpg" /><h3>Jakob Trollback</h3><h4>Founder & CCO - Trollbäck+Company </h4><h5>Bio</h5></article>
+                 <article class="bMember col-sm-4"><img src="~/Images/SO.jpg" /><h3>Shannon O'Shea</h3><h4>Agenda 2030 Partnerships, UNICEF </h4><h5>Bio</h5></article>
+                 <article class="bMember col-sm-4"><img src="~/Images/RW.png" /><h3>Rachel West</h3><h4>Global Head of Creative Relations, GREY </h4><h5>Bio</h5></article>
+                 <article class="bMember col-sm-4"><img src="~/Images/TP.jpg" /><h3>Tamara Park</h3><h4>Founder, Chief Creative Officer Park Digital Ventures </h4><h5>Bio</h5></article>
+                 <article class="bMember col-sm-4"><img src="~/Images/MA.jpg" /><h3>Prof. Meena Alexandra</h3><h4>Award-winning poet </h4><h5>Bio</h5></article>
+                 <article class="bMember col-sm-4"><img src="~/Images/MR.jpg" /><h3>Miriam Rotman, M.D.</h3><h4>Women’s Health Advocate Bay Area Forward</h4><h5>Bio</h5></article>
+                 <article class="bMember col-sm-4"><img src="~/Images/DC2.jpg" /><h3>Donetta Campbell</h3><h4>CEO – The Social Architects</h4><h5>Bio</h5></article>
+                 <article class="bMember col-sm-4"><img src="~/Images/MD.jpg" /><h3>Mark Danchak</h3><h4>Co-Founder - Carbon6 Ventures </h4><h5>Bio</h5></article>
+                 <article class="bMember col-sm-4"><img src="~/Images/KP.jpg" /><h3>Katrina Del Punta, PhD</h3><h4>Professor – Rockefeller University</h4><h5>Bio</h5></article>
 
-                -->
-            <!--<article class="bMember col-sm-4"><h3>Name</h3><h4>Role</h4><h5>Bio</h5></article>-->
-        </div> <!--row for Advisory Board-->
+                 -->
+                <!--<article class="bMember col-sm-4"><h3>Name</h3><h4>Role</h4><h5>Bio</h5></article>-->
+            </div> <!--row for Advisory Board-->
+        </div>
     </div> <!--container-->
 
 </div> <!--The team-->

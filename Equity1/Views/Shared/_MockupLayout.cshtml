@@ -4,24 +4,25 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    @*  StringComparison::OrdinalIgnoreCase*@
     <title>@ViewBag.Title - EQUITY</title>
-    @if (@Context.Request.FilePath == "/Mockups/Black")
+    @if (@Context.Request.FilePath.Equals("/Mockups/black", StringComparison.OrdinalIgnoreCase))
     {
         @Styles.Render("~/Black/css")
     }
-    else if (@Context.Request.FilePath == "/Mockups/BOW")
+    else if (@Context.Request.FilePath.Equals("/Mockups/BOW", StringComparison.OrdinalIgnoreCase))
     {
         @Styles.Render("~/BOW/css")
     }
-    else if (@Context.Request.FilePath == "/Mockups/BlackOnWhite")
+    else if (@Context.Request.FilePath.Equals("/Mockups/blackonwhite", StringComparison.OrdinalIgnoreCase))
     {
         @Styles.Render("~/BlackOnWhite/css")
     }
-    else if (@Context.Request.FilePath == "/Mockups/WhiteOnBlack")
+    else if (@Context.Request.FilePath.Equals("/Mockups/black", StringComparison.OrdinalIgnoreCase))
     {
         @Styles.Render("~/WhiteOnBlack/css")
     }
-    else if (@Context.Request.FilePath == "/Mockups/Rainbow")
+    else if (@Context.Request.FilePath.Equals("/Mockups/Rainbow", StringComparison.OrdinalIgnoreCase))
     {
         @Styles.Render("~/Rainbow/css")
     }
@@ -75,6 +76,7 @@
         @RenderBody()
         @Html.Partial("_MockupPartial")
         <footer class="foot">
+            <p>@Context.Request.FilePath</p>
             <p>&copy; @DateTime.Now - EQUITY Mockups</p>
         </footer>
     </div>

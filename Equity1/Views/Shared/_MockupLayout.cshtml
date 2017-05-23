@@ -18,7 +18,7 @@
     {
         @Styles.Render("~/BlackOnWhite/css")
     }
-    else if (@Context.Request.FilePath.Equals("/Mockups/black", StringComparison.OrdinalIgnoreCase))
+    else if (@Context.Request.FilePath.Equals("/Mockups/WhiteOnblack", StringComparison.OrdinalIgnoreCase))
     {
         @Styles.Render("~/WhiteOnBlack/css")
     }
@@ -76,7 +76,6 @@
         @RenderBody()
         @Html.Partial("_MockupPartial")
         <footer class="foot">
-            <p>@Context.Request.FilePath</p>
             <p>&copy; @DateTime.Now - EQUITY Mockups</p>
         </footer>
     </div>

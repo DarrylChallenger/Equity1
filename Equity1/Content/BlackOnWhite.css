@@ -44,14 +44,6 @@ textarea {
 
 .navbar-default .navbar-brand {
     background-image: url("../Images/equity_V3-03black.png" );
-    background-repeat: no-repeat;
-    background-size: 100%;
-    background-clip:border-box;
-    padding:0;
-    margin-top: 0;
-    width:250px;
-    height:60px;
-
 }
 
 
@@ -88,6 +80,10 @@ textarea {
 div.MapImage h4 {
     color:white;
 }
+
+ .separator {
+    border-left-color:black;
+ }
 
 div.RoomImage h4 {
     color:white;

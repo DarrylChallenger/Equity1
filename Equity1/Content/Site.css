@@ -17,7 +17,10 @@ ul {
 
 div.sectionTilte, .sectionTilte {
     text-align:center;
-    font-size:1.8em;
+    font-size:2.5em;
+    font-weight:700;
+    padding-top:2em;
+    padding-bottom:2em;
 }
 
 
@@ -103,6 +106,11 @@ textarea {
     width:100%;
 }
 
+.NarrowImage {
+    padding: 0 0 0 0; /*pixels*/
+    position:relative;
+}
+
 .MapImage {
     position:relative;
     padding: 0 0 0 0; /*pixels*/
@@ -185,20 +193,86 @@ div.RoomImage h3 span {
     padding-right: 15px;
 }
 
+.MissionSummary {
+    padding-top:2em;
+    padding-bottom:2em;
+}
  .banner {
     text-align:center;
     font-weight:700;
 }
 
+ h1.spacedbanner{
+     padding-top: 1em;
+ }
+
  .center {
     text-align:center;
 }
 
+ .separator {
+    border-left-style:inset;
+    border-left-color:rgb(43,169,225);
+ }
+
+.backgroundQ {
+    background-image: url("../Images/equity_QGrey.png" );
+    background-repeat: no-repeat;
+    background-clip: border-box;
+    background-position-x: center;
+    min-height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.frontOfQ {
+}
+
+.backgroundPartners{
+    min-height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity:.1;
+}
+
+.frontOfPartners {
+    position:absolute;
+    max-width:80%;
+}
+
+hBoxContainer{
+    display:table;
+}
+
+.hBox{
+    display: table-cell;
+    background-color:bisque;
+    float:none;
+    align-items: center;
+    justify-content: center;
+    vertical-align:top;
+    align-content:center;
+    /*
+    min-height: 300px;
+    height:inherit;
+    */
+}
+
+.inHBox{
+    min-height: 200px;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
  .hvcenter {
-     height:20em;
-     display:flex;
-     align-items:center;
-     justify-content:center;
+    height:20em;
+    display:flex;
+    align-items:center;
+    justify-content:center;
  }
 
  .hvcenteritems {

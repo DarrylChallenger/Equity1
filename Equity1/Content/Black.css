@@ -41,6 +41,10 @@ div.MapImage h4 {
     color:rgb(43,169,225);
 }
 
+ .separator {
+    border-left-color:rgb(43,169,225);
+ }
+
 div.MosaicImage h3 {
     color:white;
 }

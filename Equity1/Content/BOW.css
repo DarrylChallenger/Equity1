@@ -37,6 +37,9 @@
 div.MapImage h4 {
     color:rgb(43,169,225);
 }
+ .separator {
+    border-left-color:rgb(43,169,225);
+ }
 
 
 div.RoomImage h4 {

@@ -95,14 +95,13 @@ div.RoomImage h3 span {
     top: 1em;
 }
 
+ .separator {
+    border-left-color:white;
+ }
 
-.repad {
-    padding-left: 15px;
-    padding-right: 15px;
-}
 
  .banner {
-    color: black;
+    color: white;
 }
 
 .tName, .bName {
@@ -121,15 +120,6 @@ div.RoomImage h3 span {
 .bBio {
     color: white;
     display:none;
- }
-
- .tImg, .bImg {
-    width: 250px;
-    height: 250px;
-    
-    background-size:cover;
-    background-position: 50% 50%;
-    display:block;
  }
 
  h1,h2,h3,h4,h5,h6,p {

@@ -22,6 +22,10 @@
     {
         @Styles.Render("~/WhiteOnBlack/css")
     }
+    else if (@Context.Request.FilePath.Equals("/Mockups/WhiteOnblue", StringComparison.OrdinalIgnoreCase))
+    {
+        @Styles.Render("~/WhiteOnBlue/css")
+    }
     else if (@Context.Request.FilePath.Equals("/Mockups/Rainbow", StringComparison.OrdinalIgnoreCase))
     {
         @Styles.Render("~/Rainbow/css")
@@ -65,6 +69,7 @@
                         <li>@Html.ActionLink("Black On White", "BlackOnWhite", "Mockups")</li>
                         <li>@Html.ActionLink("Blue On Black", "Black", "Mockups")</li>
                         <li>@Html.ActionLink("White On Black", "WhiteOnBlack", "Mockups")</li>
+                        <li>@Html.ActionLink("White On Blue", "WhiteOnBlue", "Mockups")</li>
                         <li>@Html.ActionLink("Rainbow", "Rainbow", "Mockups")</li>
                     </ul>
                     <!--@Html.Partial("_LoginPartial") We'll add this as a separate page or feature later -->

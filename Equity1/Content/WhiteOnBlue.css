@@ -1,0 +1,127 @@
+﻿/* is it 43,169,225 or 38,169,225? */
+body {
+    padding-top: 70px;
+    padding-bottom: 20px;
+    color:white;
+    background-color:rgb(43, 169, 225);
+    /* rgb(43,169,225); */
+
+}
+
+/* Set padding to keep content from hitting the edges 
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}*/
+/* use bullets content lists */
+ul {
+    list-style:disc;
+}
+
+div.sectionTilte, .sectionTilte {
+    text-align:center;
+    font-size:1.8em;
+}
+
+
+/* Override the default bootstrap behavior where horizontal description lists 
+   will truncate terms that are too long to fit in the left column 
+*/
+.dl-horizontal dt {
+    white-space: normal;
+}
+
+/* Set width on the form input elements since they're 100% wide by default */
+input,
+select,
+textarea {
+    max-width: 280px;
+}
+
+/* Add the logo, Change the header background to EQUITY blue (43, 169, 225) with white text*/
+.navbar {
+    transition: all .5s ease-out;
+}
+
+.navbar-default .navbar-brand {
+    background-image: url("../Images/equity_V3-03white.png" );
+}
+
+
+.nav {
+    border-color: rgb(43, 169, 225);
+}
+
+.navbar-default  {
+    background-color:rgb(43, 169, 225);
+}
+
+.navbar-default .navbar-brand, .navbar-default .navbar-nav > li > a {
+    background-color: rgb(43, 169, 225);
+    color: white;    
+    text-shadow: none;
+    font-size:1.2em;
+}
+
+ .navbar-default .navbar-nav > li > a:hover,  .navbar-default .navbar-nav > li > a:focus {
+    background-color: white;
+    color: rgb(43, 169, 225);
+}
+
+.navbar-default .navbar-nav > li> a .active  { /* not working yet*/
+    /*  color: rgb(43, 169, 225);     */
+    font-weight: 100;
+}
+
+/*.navbar-default .navbar-brand:hover {
+    color: white;
+}*/
+
+.navbar-default .navbar-collapse, .navbar-default .navbar-form{
+    border-color:rgb(43, 169, 225);
+}
+
+div.MapImage h4 {
+    color:white;
+}
+
+div.RoomImage h4 {
+    color:white;
+}
+
+div.RoomImage h3 span {
+    width:80%;
+    color:white;
+    top: 1em;
+}
+
+ .separator {
+    border-left-color:white;
+ }
+
+
+ .banner {
+    color: white;
+}
+
+.tName, .bName {
+    color: white;
+ }
+
+.tTitle, .bTitle {
+    color: white;
+ }
+
+.tBio {
+    color: white; 
+}
+
+
+.bBio {
+    color: white;
+    display:none;
+ }
+
+ h1,h2,h3,h4,h5,h6,p {
+    color: white;
+}

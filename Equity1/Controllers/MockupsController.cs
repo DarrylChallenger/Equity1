@@ -29,6 +29,10 @@ namespace Equity1.Controllers
         {
             return View();
         }
+        public ActionResult WhiteOnBlue()
+        {
+            return View();
+        }
         public ActionResult Rainbow()
         {
             return View();

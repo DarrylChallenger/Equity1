@@ -209,9 +209,13 @@ div.RoomImage h3 span {
  .center {
     text-align:center;
 }
+.EquityGoal {
+    margin-left:1em;
+    margin-right:1em;
+ }
 
- .separator {
-    border-left-style:inset;
+.separator {
+    border-left-style:solid;
     border-left-color:rgb(43,169,225);
  }
 
@@ -247,17 +251,16 @@ hBoxContainer{
 }
 
 .hBox{
-    display: table-cell;
+    padding-left:2em;
+    padding-top:2em;
     background-color:bisque;
-    float:none;
+    display: block;
+    height: auto;
+    max-width: 100%;
     align-items: center;
     justify-content: center;
-    vertical-align:top;
     align-content:center;
-    /*
     min-height: 300px;
-    height:inherit;
-    */
 }
 
 .inHBox{
@@ -268,17 +271,36 @@ hBoxContainer{
 }
 
 
- .hvcenter {
-    height:20em;
-    display:flex;
-    align-items:center;
-    justify-content:center;
- }
+.hvcenter {
+    height:5em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media only screen and (min-width:768px) {
+    .hvcenter {
+        height: 20em;
+    }
+}
+
+@media only screen and (min-width:922px) {
+    .hvcenter {
+        height: 20em;
+    }
+}
+
+@media only screen and (min-width:1200px) {
+    .hvcenter {
+        height: 20em;
+    }
+}
+
 
  .hvcenteritems {
      padding-top:10px;
      padding-bottom: 20px;
-     width: inherit ;
+     width: 66% ;
      text-align:center;
  }
 
@@ -286,12 +308,15 @@ hBoxContainer{
     color: rgb(43, 169,225);
     font-size:1.7em;
     height: 1em;
+    text-align:center;
     /*background-color:black;*/
  }
 
 .tTitle, .bTitle {
+    display:block;
     color: rgb(43, 169,225);
     height:3em;
+    text-align:center;
  }
 
 .tBio {
@@ -308,7 +333,7 @@ hBoxContainer{
  .tImg, .bImg {
     width: 250px;
     height: 250px;
-    
+    margin:0 auto;
     background-size:cover;
     background-position: 50% 50%;
     display:block;
@@ -338,7 +363,7 @@ hBoxContainer{
     margin:0 10px;
 }
 
-.BlackOnWhite, .BlueOnWhite, .BlueOnBlack, .WhiteOnBlack, .Rainbow, .USA2 {
+.BlackOnWhite, .BlueOnWhite, .BlueOnBlack, .WhiteOnBlack, .WhiteOnBlue, .Rainbow, .USA2 {
     width:300px;
 }
 
@@ -353,6 +378,9 @@ hBoxContainer{
 }
 .WhiteOnBlack {
     background-color:black;
+}
+.WhiteOnBlue {
+    background-color:rgb(43, 169, 225);
 }
 .Rainbow {
     background-color:white;

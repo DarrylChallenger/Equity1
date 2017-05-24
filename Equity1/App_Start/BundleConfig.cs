@@ -52,6 +52,10 @@ namespace Equity1
                       "~/Content/site.css",
                       "~/Content/WhiteOnBlack.css"));
 
+            bundles.Add(new StyleBundle("~/WhiteOnBlue/css").Include(
+                      "~/Content/bootstrap.css",
+                      "~/Content/site.css",
+                      "~/Content/WhiteOnBlue.css"));
         }
     }
 }

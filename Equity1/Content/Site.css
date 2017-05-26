@@ -137,6 +137,11 @@ div.MapImage h4 {
     right:2em;
 }
 
+.mosaic, .DAMNroom {
+    display:none;
+}
+
+
 .MosaicImage {
     position:relative;
     padding: 0 0 0 0; /*pixels*/
@@ -205,12 +210,12 @@ div.RoomImage h3 span {
     padding-bottom:6em;
 }
 
-MissionSummaryHeadFoot  {
-    min-height: 1em;
-}
-
 .MissionSummary{
     background-color:rgb(43,169,225);
+}
+
+MissionSummaryHeadFoot  {
+    min-height: 1em;
 }
 
 .MissionSummary .statement {
@@ -228,7 +233,6 @@ MissionSummaryHeadFoot  {
 
 .MissionSummary .MissionDescBox {
     padding:0em 0 7em 0;
-    border-color:red; 
     display:flex;
 }
 
@@ -253,9 +257,42 @@ MissionSummaryHeadFoot  {
     width:50%;
 }
 
-.statement h3{
+.WhatIsEquity {
+    background-color:white;
 }
 
+.WhatIsEqHeadFoot {
+    min-height: 1em;
+}
+
+.WhatIsEquity .statement {
+    padding:8em 0 0em 0;  
+}
+
+.WhatIsEquity .displayflex {
+    display:flex;
+    justify-content:center;
+}
+
+.WhatIsEquity .centereddiv {
+    text-align:center;
+    width: 70%;
+}
+
+.WhatIsEquity .separator {
+    border-left-style:solid;
+    border-right-style:solid;
+    border-left-color:rgb(43,169,225);
+    border-right-color:rgb(43,169,225);
+}
+
+.WhatIsEquity .minheight {
+    min-height:20em;
+}
+
+.WhatIsEquity h4.desctext {
+    color:black;
+}
  .banner {
     text-align:center;
     font-weight:800;
@@ -329,15 +366,16 @@ hBoxContainer{
 
 }
 
-.displayflex {
+.MissionSummary .displayflex {
     display:flex;
     justify-content:center;
 }
 
-.centereddiv {
+.MissionSummary .centereddiv {
     width: 50% ;
     text-align:center;
 }
+
 
 @media only screen and (min-width:768px) {
     .hvcenter {

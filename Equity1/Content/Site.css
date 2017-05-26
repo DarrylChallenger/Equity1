@@ -200,13 +200,65 @@ div.RoomImage h3 span {
     padding-right: 15px;
 }
 
-.MissionSummary {
-    padding-top:2em;
-    padding-bottom:2em;
+.intro {
+    padding-top:4em;
+    padding-bottom:6em;
 }
+
+MissionSummaryHeadFoot  {
+    min-height: 1em;
+}
+
+.MissionSummary{
+    background-color:rgb(43,169,225);
+}
+
+.MissionSummary .statement {
+    padding:7em 0 0em 0;  
+}
+
+.MissionSummary .eqsignbox {
+    border-color:black; 
+    padding:0em 0 1em 0;
+}
+
+.MissionSummary .eqsign {
+    color:black;
+}
+
+.MissionSummary .MissionDescBox {
+    padding:0em 0 7em 0;
+    border-color:red; 
+    display:flex;
+}
+
+.MissionSummary .MissionDesc {
+}
+
+.MissionSummary h3 {
+    color:white;
+    text-align:center;
+}
+
+.MissionSummary p {
+    color:white;
+    text-align:center;
+}
+
+.MissionSummary .separator  {
+    border-left-color:white;
+}
+
+.MissionSummary .hvcenteritems {
+    width:50%;
+}
+
+.statement h3{
+}
+
  .banner {
     text-align:center;
-    font-weight:700;
+    font-weight:800;
 }
 
  h1.spacedbanner{
@@ -222,10 +274,9 @@ div.RoomImage h3 span {
  }
 
 .separator {
-    button
     border-left-style:solid;
     border-left-color:rgb(43,169,225);
- }
+}
 
 .backgroundQ {
     background-image: url("../Images/equity_QGrey.png" );
@@ -278,39 +329,35 @@ hBoxContainer{
 
 }
 
+.displayflex {
+    display:flex;
+    justify-content:center;
+}
 
-.hvcenter {
-    height:5em;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.centereddiv {
+    width: 50% ;
+    text-align:center;
 }
 
 @media only screen and (min-width:768px) {
     .hvcenter {
-        height: 20em;
     }
 }
 
 @media only screen and (min-width:922px) {
     .hvcenter {
-        height: 20em;
+        display: flex;
+        align-items:center;
+        justify-content:center;
+        vertical-align:bottom;
+        text-align:center;
     }
 }
 
 @media only screen and (min-width:1200px) {
-    .hvcenter {
-        height: 20em;
+    .hvcenter, .MissionSummary .statement {
     }
 }
-
-
- .hvcenteritems {
-     padding-top:10px;
-     padding-bottom: 20px;
-     width: 66% ;
-     text-align:center;
- }
 
 .tName, .bName {
     color: rgb(43, 169,225);
@@ -347,7 +394,7 @@ hBoxContainer{
     display:block;
  }
 
- h1,h2,h3,h4,h5,h6,p {
+ /*h1,h2,h3,h4,h5,h6,p {
     color: rgb(43, 169, 225);
 }
 
@@ -355,6 +402,7 @@ hBoxContainer{
     color: rgb(43, 169,225);
     font-size:2em;
 }
+*/
 
 .vcenter {
     display: inline-block;

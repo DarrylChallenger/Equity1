@@ -257,6 +257,16 @@ MissionSummaryHeadFoot  {
     width:50%;
 }
 
+.MissionSummary .displayflex {
+    display:flex;
+    justify-content:center;
+}
+
+.MissionSummary .centereddiv {
+    width: 50% ;
+    text-align:center;
+}
+
 .WhatIsEquity {
     background-color:white;
 }
@@ -293,6 +303,51 @@ MissionSummaryHeadFoot  {
 .WhatIsEquity h4.desctext {
     color:black;
 }
+
+.partners-UN {
+    background-color:rgb(43,169,225);
+    color:white;
+}
+
+.backgroundPartners-UN-div {
+    min-height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.backgroundPartners-UN{
+}
+
+.frontOfPartners-UN {
+    position:absolute;
+    max-width:80%;
+}
+
+.frontOfPartners-UN-Image {
+    /*position:absolute;*/
+    max-width:80%;
+    opacity:.6;
+}
+
+
+.partners-GG {
+    background-color:white;
+    color:rgb(43,169,225);
+}
+
+.backgroundPartners-GG{
+    min-height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.GlobalGoals {
+    padding: 2em 0 2em 0;
+    background-color:rgb(43,169,225);
+    color:white;
+}
  .banner {
     text-align:center;
     font-weight:800;
@@ -309,6 +364,17 @@ MissionSummaryHeadFoot  {
     margin-left:1em;
     margin-right:1em;
  }
+
+.EquityGoalContainer {
+}
+
+.EquityGoalText {
+}
+
+.EquityGoalImage {
+    width:10%;
+    float:left;
+}
 
 .separator {
     border-left-style:solid;
@@ -327,19 +393,6 @@ MissionSummaryHeadFoot  {
 }
 
 .frontOfQ {
-}
-
-.backgroundPartners{
-    min-height: 300px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    opacity:.1;
-}
-
-.frontOfPartners {
-    position:absolute;
-    max-width:80%;
 }
 
 hBoxContainer{
@@ -364,16 +417,6 @@ hBoxContainer{
     align-items: center;
     justify-content: center;
 
-}
-
-.MissionSummary .displayflex {
-    display:flex;
-    justify-content:center;
-}
-
-.MissionSummary .centereddiv {
-    width: 50% ;
-    text-align:center;
 }
 
 

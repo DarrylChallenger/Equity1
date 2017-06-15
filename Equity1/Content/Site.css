@@ -1,8 +1,8 @@
-﻿/* is it 43,169,225 or 38,169,225? */
+/* is it 43,169,225 or 38,169,225? */
 body {
     padding-top: 70px;
     padding-bottom: 20px;
-    color: rgb(43,169,225); 
+    color: rgb(43,169,225); /* #28a9e1 */
 }
 
 /* Set padding to keep content from hitting the edges 
@@ -12,7 +12,7 @@ body {
 }*/
 /* use bullets content lists */
 ul {
-    list-style:disc;
+    list-style:none;
 }
 
 div.sectionTilte, .sectionTilte {
@@ -44,7 +44,7 @@ textarea {
 }
 
 .navbar-default .navbar-brand {
-    background-image: url("../Images/equity_V3-03blue.png" );
+    background-image: url("../Images/equity_V3-03white.png" );
     background-repeat: no-repeat;
     background-size: 100%;
     background-clip:border-box;
@@ -52,7 +52,6 @@ textarea {
     margin-top: 0;
     width:250px;
     height:60px;
-
 }
 
 
@@ -61,29 +60,33 @@ textarea {
 }
 
 .navbar-default  {
-    color: white;
     border: none;
-    background-color:white;
+    background-color:black;
 }
 
 .navbar-default .navbar-brand, .navbar-default .navbar-nav > li > a {
-    background-color: white;
-    color: rgb(43, 169, 225);    
+    background-color: black;
+    color: white;   
     text-shadow: none;
     font-size:1.2em;
 }
 
- .navbar-default .navbar-nav > li > a:hover,  .navbar-default .navbar-nav > li > a:focus {
-    background-color: rgb(43, 169, 225);
-    color: white;
+ .navbar-default .navbar-nav > li > a:hover {
+    background-color:black;
+    color: rgb(43, 169, 225);
+}
+  
+.navbar-default .navbar-nav > .active > a,
+ .navbar-default .navbar-nav  .active  a:hover,
+ .navbar-default .navbar-nav > .active > a:hover, 
+ .navbar-default .navbar-nav > .active > a:focus {
+    /*  color: rgb(43, 169, 225);     */
+    color:rgb(43, 169, 225);
+    font-weight: 700;
+    background-color:black;
 }
 
-.navbar-default .navbar-nav > li> a .active  { /* not working yet*/
-    /*  color: rgb(43, 169, 225);     */
-    color: greenyellow;
-    font-weight: 100;
-    border-bottom: solid rgb(43, 169, 225);
-}
+
 
 /*.navbar-default .navbar-brand:hover {
     color: white;
@@ -126,6 +129,7 @@ textarea {
     margin-left:0;
     margin-right:0;
     width:100%;
+    height:100%;
 }
 
 div.MapImage h4 {
@@ -218,12 +222,9 @@ MissionSummaryHeadFoot  {
     min-height: 1em;
 }
 
-.MissionSummary .statement {
-    padding:7em 0 0em 0;  
-}
-
 .MissionSummary .eqsignbox {
-    border-color:black; 
+    border-color:white;
+     
     padding:0em 0 1em 0;
 }
 
@@ -249,8 +250,17 @@ MissionSummaryHeadFoot  {
     text-align:center;
 }
 
-.MissionSummary .separator  {
-    border-left-color:white;
+.MissionSummary .statement {
+    padding: 06em 0 0em 0;
+}
+
+p.MissionDesc {
+    padding: 0em 0 6em 0;
+}
+
+.MissionSummary .separator, .MissionDesc .separator  {
+    border-right-style:solid;
+    border-right-color:white;
 }
 
 .MissionSummary .hvcenteritems {
@@ -297,7 +307,8 @@ MissionSummaryHeadFoot  {
 }
 
 .WhatIsEquity .minheight {
-    min-height:20em;
+    padding-top: 5em;
+    padding-bottom:5em;
 }
 
 .WhatIsEquity h4.desctext {
@@ -347,6 +358,7 @@ MissionSummaryHeadFoot  {
     padding: 2em 0 2em 0;
     background-color:rgb(43,169,225);
     color:white;
+    display:none;
 }
  .banner {
     text-align:center;
@@ -371,9 +383,7 @@ MissionSummaryHeadFoot  {
 .EquityGoalText {
 }
 
-.EquityGoalImage {
-    width:10%;
-    float:left;
+.EquityGoal li p {
 }
 
 .separator {
@@ -419,25 +429,34 @@ hBoxContainer{
 
 }
 
-
-@media only screen and (min-width:768px) {
-    .hvcenter {
+@media only screen and (min-width:768px) and (min-width:992px) and (min-width:1200px) {
+    .MissionSummary .statement {
+        padding: 07em 0 0em 0;
     }
-}
-
-@media only screen and (min-width:922px) {
+    /*
     .hvcenter {
         display: flex;
         align-items:center;
         justify-content:center;
         vertical-align:bottom;
         text-align:center;
+        border-style:dashed;
+        border-color:orange;
+    }*/
+    .EquityGoalText {
     }
-}
+    .EquityGoalImage {
+    width:10%;
+    float:left;
+    }
+    div.sectionTilte, .sectionTilte {
+    text-align:center;
+    font-size:2.5em;
+    font-weight:700;
+    padding-top:2em;
+    padding-bottom:2em;
+    }
 
-@media only screen and (min-width:1200px) {
-    .hvcenter, .MissionSummary .statement {
-    }
 }
 
 .tName, .bName {

@@ -1,4 +1,13 @@
-﻿
+﻿@{
+    string controllerAction = ViewContext.RouteData.Values["Controller"].ToString() + ViewContext.RouteData.Values["Action"].ToString();
+}
+@functions {
+    public string GetActiveMenu(string controller, string action)
+    {
+        if ((controller == ViewContext.RouteData.Values["Controller"].ToString()) && action == ViewContext.RouteData.Values["Action"].ToString())
+        { return "class=active"; } else { return ""; }
+    }
+        }
 <!DOCTYPE html>
 <html>
 <head>
@@ -13,13 +22,20 @@
         {
             function r(config){ t[config] = function(){ var i = arguments; t.queue.push(function(){ t[config].apply(t, i)})} }
             var t = { config:config},u=document,e=window,o='script',s=u.createElement(o),i,f;for(s.src=config.url||'//az416426.vo.msecnd.net/scripts/a/ai.0.js',u.getElementsByTagName(o)[0].parentNode.appendChild(s),t.cookie=u.cookie,t.queue=[],i=['Event','Exception','Metric','PageView','Trace','Ajax'];i.length;)r('track'+i.pop());return r('setAuthenticatedUserContext'),r('clearAuthenticatedUserContext'),config.disableExceptionTracking||(i='onerror',r('_'+i),f=e[i],e[i]=function(config, r, u, e, o) { var s = f && f(config, r, u, e, o); return s !== !0 && t['_' + i](config, r, u, e, o),s}),t
-        }({
+    }({
             instrumentationKey:'201d9039-ae16-4d10-b5f9-885e7559ec09'
         });
         
         window.appInsights=appInsights;
         appInsights.trackPageView();
     </script>
+    <script type='text/javascript'>
+        $(".nav a").on("click", function () {
+            $(".nav").find(".active").removeClass("active");
+            $(this).parent().addClass("active");
+    });
+    </script>
+
 </head>
 <body>
     <header>
@@ -35,11 +51,11 @@
                 </div> <!--navbar-header-->
                 <div class="navbar-collapse collapse">
                     <ul class="nav navbar-nav navbar-right">
-                        <li>@Html.ActionLink("Home", "Index", "Home")</li>
-                        <li>@Html.ActionLink("About Us", "About", "Home")</li>
-                        <li>@Html.ActionLink("Gallery", "Gallery", "Home")</li>
-                        <li>@Html.ActionLink("Our Team", "OurTeam", "Home")</li>
-                        <li>@Html.ActionLink("Support Us", "Support", "Home")</li>
+                        <li @GetActiveMenu("Home", "Index")>@Html.ActionLink("Home", "Index", "Home")</li>
+                        <li @GetActiveMenu("Home","About")>@Html.ActionLink("About Us", "About", "Home")</li>
+                        <li @GetActiveMenu("Home", "Gallery")>@Html.ActionLink("Gallery", "Gallery", "Home")</li>
+                        <li @GetActiveMenu("Home", "OurTeam")>@Html.ActionLink("Our Team", "OurTeam", "Home")</li>
+                        <li @GetActiveMenu("Home", "Support")>@Html.ActionLink("Support Us", "Support", "Home")</li>
                         <li>@Html.ActionLink("Mockups", "Index", "Mockups")</li>
                     </ul>
                     <!--<button class="btn navbar-btn navbar-right capsuleMenuBotton">Button</button>-->

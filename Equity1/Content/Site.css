@@ -259,8 +259,8 @@ p.MissionDesc {
 }
 
 .MissionSummary .separator, .MissionDesc .separator  {
-    border-right-style:solid;
-    border-right-color:white;
+    border-left-style:solid;
+    border-left-color:white;
 }
 
 .MissionSummary .hvcenteritems {
@@ -274,6 +274,11 @@ p.MissionDesc {
 
 .MissionSummary .centereddiv {
     width: 50% ;
+    text-align:center;
+}
+
+.MissionSummary .centereddiv2 {
+    width: 800% ;
     text-align:center;
 }
 

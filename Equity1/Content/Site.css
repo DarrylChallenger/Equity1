@@ -122,25 +122,28 @@ textarea {
 }
 
 .MapImage {
-    position:relative;
     padding: 0 0 0 0; /*pixels*/
-    padding-left:0;
-    padding-right:0;
     margin-left:0;
     margin-right:0;
     width:100%;
     height:100%;
 }
 
-div.MapImage h4 {
-    position:absolute;
-    color:rgb(43,169,225);
-    font-size:.9em;
-    font-style:italic;
-    bottom:1em;
-    right:2em;
+.DAMNWrap {
+    position:relative;
+    width:100%;
+    height:100%;
 }
 
+div.DAMNWrap h4 {
+    position:absolute;
+    color:rgb(43,169,225);
+    bottom:1em;
+    right:5em;
+    font-size:1.2em;
+    font-style:italic;
+}
+    
 .mosaic, .DAMNroom {
     display:none;
 }
@@ -210,8 +213,8 @@ div.RoomImage h3 span {
 }
 
 .intro {
-    padding-top:4em;
-    padding-bottom:6em;
+    padding-top:12em;
+    padding-bottom:14em;
 }
 
 .MissionSummary{

@@ -238,11 +238,34 @@
     <Content Include="Images\equity_V3-03black.png" />
     <Content Include="Images\equity_V3-03blue.png" />
     <Content Include="Images\ERsq.png" />
+    <Content Include="Images\FB-f-Logo__blue_29.png" />
     <Content Include="Images\FSsq.jpg" />
+    <Content Include="Images\GalleryPics\Raquelle iPHONE as at Jan 23 1270.JPG" />
+    <Content Include="Images\GalleryPics\Raquelle iPHONE as at Jan 23 1407.JPG" />
+    <Content Include="Images\GalleryPics\Raquelle iPHONE as at Jan 23 1410.JPG" />
+    <Content Include="Images\GalleryPics\Raquelle iPHONE as at Jan 23 1411.JPG" />
+    <Content Include="Images\GalleryPics\Raquelle iPHONE as at Jan 23 1412.JPG" />
+    <Content Include="Images\GalleryPics\Raquelle iPHONE as at Jan 23 1414.JPG" />
+    <Content Include="Images\GalleryPics\Raquelle iPHONE as at Jan 23 1415.JPG" />
+    <Content Include="Images\GalleryPics\Raquelle iPHONE as at Jan 23 1416.JPG" />
+    <Content Include="Images\GalleryPics\Raquelle iPHONE as at Jan 23 1417.JPG" />
+    <Content Include="Images\GalleryPics\Raquelle iPHONE as at Jan 23 1418.JPG" />
+    <Content Include="Images\GalleryPics\Raquelle iPHONE as at Jan 23 1419.JPG" />
+    <Content Include="Images\GalleryPics\Raquelle iPHONE as at Jan 23 1420.JPG" />
+    <Content Include="Images\GalleryPics\Raquelle iPHONE as at Jan 23 1421.JPG" />
+    <Content Include="Images\GalleryPics\Raquelle iPHONE as at Jan 23 1422.JPG" />
+    <Content Include="Images\GalleryPics\Raquelle iPHONE as at Jan 23 1423.JPG" />
+    <Content Include="Images\GalleryPics\Raquelle iPHONE as at Jan 23 1424.JPG" />
+    <Content Include="Images\GalleryPics\Raquelle iPHONE as at Jan 23 1425.JPG" />
+    <Content Include="Images\GalleryPics\Raquelle iPHONE as at Jan 23 1426.JPG" />
+    <Content Include="Images\GalleryPics\Raquelle iPHONE as at Jan 23 1427.JPG" />
+    <Content Include="Images\GalleryPics\Raquelle iPHONE as at Jan 23 1428.JPG" />
     <Content Include="Images\GenderEqPlus.png" />
     <Content Include="Images\GlobalCitizenLogo.png" />
     <Content Include="Images\GlobalGoals.jpg" />
     <Content Include="Images\GlobalGoalsColorWheel.jpg" />
+    <Content Include="Images\In-2C-28px-R.png" />
+    <Content Include="Images\Instagrarm-glyph-logo_May2016.png" />
     <Content Include="Images\JBsq.jpg" />
     <Content Include="Images\JTsq.jpg" />
     <Content Include="Images\KPsq.jpg" />
@@ -263,6 +286,7 @@
     <Content Include="Images\SuperGirl.jpg" />
     <Content Include="Images\TAsq.jpg" />
     <Content Include="Images\TPsq.jpg" />
+    <Content Include="Images\Twitter_Social_Icon_Rounded_Square_Color.png" />
     <Content Include="Images\UNLogoSDG.png" />
     <Content Include="Images\Woman in Car.jpg" />
     <Content Include="Scripts\bootstrap.js" />
@@ -271,9 +295,13 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <None Include="Properties\PublishProfiles\Equity120170411071210.pubxml" />
-    <None Include="Scripts\jquery-1.10.2.intellisense.js" />
-    <Content Include="Scripts\jquery-1.10.2.js" />
-    <Content Include="Scripts\jquery-1.10.2.min.js" />
+    <None Include="Scripts\jquery-3.1.1.intellisense.js" />
+    <Content Include="Scripts\jquery-3.1.1.js" />
+    <Content Include="Scripts\jquery-3.1.1.min.js" />
+    <Content Include="Scripts\jquery-3.1.1.slim.js" />
+    <Content Include="Scripts\jquery-3.1.1.slim.min.js" />
+    <Content Include="Scripts\jquery-3.1.1.slim.min.map" />
+    <Content Include="Scripts\jquery-3.1.1.min.map" />
     <None Include="Scripts\jquery.validate-vsdoc.js" />
     <Content Include="Scripts\jquery.validate.js" />
     <Content Include="Scripts\jquery.validate.min.js" />
@@ -332,9 +360,12 @@
     <Content Include="Views\Mockups\Rainbow.cshtml" />
     <Content Include="Views\Mockups\WhiteOnBlack.cshtml" />
     <Content Include="Views\Mockups\WhiteOnBlue.cshtml" />
+    <Content Include="Views\Home\Projects.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="Images\GalleryArt\" />
+    <Folder Include="Images\GalleryVideos\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff" />
@@ -342,7 +373,6 @@
     <Content Include="fonts\glyphicons-halflings-regular.eot" />
     <Content Include="packages.config" />
     <None Include="Project_Readme.html" />
-    <Content Include="Scripts\jquery-1.10.2.min.map" />
   </ItemGroup>
   <ItemGroup>
     <WCFMetadata Include="Service References\" />
